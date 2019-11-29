@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?><widget xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:cocoon="http://cocoon.io/ns/1.0" android-versionCode="75" id="com.ideateca.sumon" ios-CFBundleVersion="1.4.2" ios-version="76" version="76">
+	<name>Sumon</name>
+	<description>
+																																																			    Created using cocoon.io
+																										</description>
+	<content src="index.html"/>
+	<preference name="Orientation" value="landscape"/>
+	<preference name="Fullscreen" value="true"/>
+	<allow-navigation href="http://*/*"/>
+	<allow-navigation href="https://*/*"/>
+	<access origin="*"/>
+	<allow-intent href="http://*/*"/>
+	<allow-intent href="https://*/*"/>
+	<allow-intent href="tel:*"/>
+	<allow-intent href="sms:*"/>
+	<allow-intent href="mailto:*"/>
+	<allow-intent href="geo:*"/>
+	<platform name="android">
+		<allow-intent href="market:*"/>
+		<preference name="enabled" value="false"/>
+	</platform>
+	<platform name="ios">
+		<allow-intent href="itms:*"/>
+		<allow-intent href="itms-apps:*"/>
+		<preference name="enabled" value="true"/>
+	</platform>
+	<preference name="CocoonSplashBackgroundColor" value="#000000"/>
+	<preference name="CocoonSplashScaleMode" value="scaleAspectFill"/>
+	<!--PLUGINS-->
+	<!--TODO: Android version with its plugins-->
+	<plugin name="cordova-plugin-whitelist" spec="" version="1"/>
+	
+	
+	<plugin name="cocoon-plugin-ads-ios-mopub" spec=""/>
+	<plugin name="cocoon-plugin-ads-android-mopub" spec=""/>
+	<plugin name="cocoon-plugin-ads-ios-mopub-admob" spec=""/>
+	<plugin name="cocoon-plugin-ads-ios-mopub-chartboost" spec=""/>
+	<plugin name="cocoon-plugin-ads-ios-mopub-millennial" spec=""/>
+	<plugin name="cocoon-plugin-ads-ios-mopub-adcolony" spec=""/>
+	<preference name="CocoonSplashDelay" value="3"/>
+	<plugin name="https://github.com/rogersolsona/cordova-plugin-flurryanalytics.git" spec="https://github.com/rogersolsona/cordova-plugin-flurryanalytics.git"/>
+	<plugin name="com.ludei.cipher" spec="">
+		<variable name="PASSWORD" value="46)m+6PLErs"/>
+	</plugin>
+    <engine name="ios" spec="4.3.0"/>
+<engine name="android" spec="6.1.0"/>
+<plugin name="com.ludei.defaultres.ios" spec="1.1.1"/>
+<plugin name="com.ludei.canvasplus.android" spec="2.3.8"/>
+<plugin name="com.ludei.canvasplus.ios" spec="2.3.8"/>
+</widget>

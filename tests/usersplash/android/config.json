@@ -1,0 +1,14 @@
+{
+  "code": "usersplash",
+  "platforms": [
+    {
+      "name": "android",
+      "splash": {
+        "url": "tests/usersplash/icon.png"
+      }
+    }
+  ],
+  "config": "tests/usersplash/config.xml",
+  "source": "tests/usersplash/source.zip",
+  "libVersion": "7.0.0"
+}

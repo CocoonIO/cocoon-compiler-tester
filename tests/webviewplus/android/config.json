@@ -1,0 +1,11 @@
+{
+  "code": "webviewplus_android",
+  "platforms": [
+    {
+      "name": "android"
+    }
+  ],
+  "config": "tests/webviewplus/config.xml",
+  "source": "tests/webviewplus/source.zip",
+  "libVersion": "7.0.0"
+}

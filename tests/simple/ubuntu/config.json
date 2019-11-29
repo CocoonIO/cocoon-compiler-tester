@@ -1,0 +1,11 @@
+{
+  "code": "simple_ubuntu",
+  "platforms": [
+    {
+      "name": "ubuntu"
+    }
+  ],
+  "config": "tests/simple/config.xml",
+  "source": "tests/simple/source.zip",
+  "libVersion": "7.0.0"
+}

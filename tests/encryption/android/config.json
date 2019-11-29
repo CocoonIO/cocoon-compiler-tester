@@ -1,0 +1,9 @@
+{
+    "code": "encryption_ios",
+    "platforms": [{
+        "name": "android"
+    }],
+    "config": "../config.xml",
+    "source": "../source.zip",
+    "libVersion": "7.0.0"
+}

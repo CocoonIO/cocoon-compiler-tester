@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" id="io.cocoon.test.resourceerror" version="1.0.0">
+    <name>2.1.0 - Resource error</name>
+    <description>Have fun with 1's and 0's</description>
+    <author email="carlo.valencia066@gmail.com">JCV</author>
+    <icon src="icon-128.png"/>
+    <preference name="permissions" value="none"/>
+    <preference name="android-targetSdkVersion" value="21"/>
+    <preference name="orientation" value="portrait"/>
+    <preference name="fullscreen" value="true"/>
+    <preference name="deployment-target" value="8.0"/>
+    <preference name="android-minSdkVersion" value="16"/>
+    <plugin name="cordova-plugin-file" spec=""/>
+    <plugin name="cordova-plugin-httpd" spec=""/>
+    <plugin name="cordova-plugin-whitelist" source="npm" spec=""/>
+    <access origin="*"/>
+    <preference name="Orientation" value="default"/>
+    <preference name="Fullscreen" value="true"/>
+    <platform name="android">
+        <preference name="enabled" value="true"/>
+    </platform>
+    <engine name="android"/>
+    <plugin name="com.ludei.devapp.android"/>
+    <plugin name="com.ludei.webviewplus.android"/>
+    <plugin name="com.ludei.defaultres.android" />
+    <plugin name="com.ludei.splash.android"/>
+    <platform name="ios">
+        <preference name="enabled" value="true"/>
+    </platform>
+    <preference name="cocoon-version" value="2.1.0"/>
+    <plugin name="com.ludei.webviewplus.ios"/>
+</widget>

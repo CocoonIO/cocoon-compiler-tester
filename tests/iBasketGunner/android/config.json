@@ -1,0 +1,15 @@
+{
+    "code": "disney_android",
+    "platforms": [{
+        "name": "android",
+        "icon": {
+            "url": "../icon.png"
+        },
+        "splash": {
+            "url": "../icon.png"
+        }
+    }],
+    "config": "../config.xml",
+    "source": "../source.zip",
+    "libVersion": "7.0.0"
+}

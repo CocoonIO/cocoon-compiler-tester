@@ -1,0 +1,32 @@
+{
+	"name": "cocoon-compiler-tester",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://bitbucket.org/ludei/cocoon-compiler-tester.git"
+	},
+	"keywords": [
+		"compiler",
+		"cocoon",
+		"ludei",
+		"tests"
+	],
+	"author": "Jorge Domínguez Arnáez <bluesialia@gmail.com> (BlueSialia)",
+	"license": "ISC",
+	"homepage": "https://bitbucket.org/ludei/cocoon-compiler-tester#readme",
+	"dependencies": {
+		"cocoon-cloud-sdk": "^2.0.1",
+		"gulp": "^3.9.1",
+		"request": "^2.81.0",
+		"yargs": "^7.0.2"
+	},
+	"devDependencies": {
+		"eslint": "^3.19.0",
+		"jshint": "^2.9.4"
+	}
+}

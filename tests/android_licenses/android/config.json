@@ -1,0 +1,9 @@
+{
+    "code": "licenses_android",
+    "platforms": [{
+        "name": "android"
+    }],
+    "config": "../config.xml",
+    "source": "../source.zip",
+    "libVersion": "7.0.0"
+}

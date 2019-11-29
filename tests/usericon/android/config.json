@@ -1,0 +1,14 @@
+{
+  "code": "usericon",
+  "platforms": [
+    {
+      "name": "android",
+      "icon": {
+        "url": "tests/usericon/icon.png"
+      }
+    }
+  ],
+  "config": "tests/usericon/config.xml",
+  "source": "tests/usericon/source.zip",
+  "libVersion": "7.0.0"
+}

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?><widget xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:cocoon="http://cocoon.io/ns/1.0" android-packageName="diyz_dev.apk" android-version="1.1.39" android-versionCode="10139" id="com.diyz.dev" version="1.1.34">
+		<name>DIYZ DEV</name>
+		<description>DIYZ dev</description>
+		<author email="support@diyz.com" href="http://diyz.com"/>
+		<content src="index.html"/>
+		<access origin="*"/>
+		<allow-intent href="http://*/*"/>
+		<allow-intent href="https://*/*"/>
+		<allow-intent href="tel:*"/>
+		<allow-intent href="sms:*"/>
+		<allow-intent href="mailto:*"/>
+		<allow-intent href="geo:*"/>
+		<!--Plugins-->
+		<preference name="android-build-tool" value="gradle"/>
+		<plugin name="cordova-plugin-splashscreen" spec=""/>
+		<plugin name="cordova-plugin-compat" spec="~1.1.0"/>
+		<plugin name="cordova-plugin-statusbar" spec="~2.2.2"/>
+		<plugin name="cordova-plugin-screen-orientation" spec=""/>
+		<plugin name="cordova-plugin-camera" spec="~2.4.0"/>
+		<plugin name="cordova-plugin-device" spec="~1.1.5"/>
+		<plugin name="cordova-plugin-file" spec="~4.3.2"/>
+		<plugin name="cordova-plugin-file-transfer" spec="~1.6.2"/>
+		<plugin name="cordova-plugin-inappbrowser" spec="~1.7.0"/>
+		<plugin name="cordova-plugin-whitelist" spec="~1.3.2"/>
+		<plugin name="cordova-plugin-hockeyapp" spec="~2.2.2"/>
+		<plugin name="cordova-plugin-settings-hook" spec="~0.2.4"/>
+		<plugin name="cordova-plugin-android-permissions" spec="~0.10.0"/>
+		<plugin name="cordova-plugin-x-socialsharing" spec="~5.1.7"/>
+		<plugin name="cordova-plugin-flashlight" spec="~3.2.0"/>
+		<plugin name="cordova-plugin-media-capture" spec=""/>
+		<plugin name="cordova-plugin-media" spec=""/>
+		<plugin name="com.ludei.installlocation.android" spec=""/>
+		<plugin name="com.synconset.cordovaHTTP" spec="https://github.com/kevboutin/SecureHTTP.git#0.2.2"/>
+		<plugin name="com.phonegap.plugins.nativesettingsopener" spec="https://github.com/estanall/Cordova-open-native-settings.git#v0.1"/>
+		<plugin name="com.tealium.cordova.v5" spec="https://github.com/Tealium/cordova-plugin.git#1.0.2:Tealium"/>
+		<plugin name="cordova-plugin-facebook4" spec="~1.7.4">
+			<variable name="APP_ID" value="1044195702310740"/>
+			<variable name="APP_NAME" value="diyz_do_it_wize.apk"/>
+		</plugin>
+		<plugin name="cordova-plugin-customurlscheme" spec="~4.2.0">
+			<variable name="URL_SCHEME" value="diyzdev"/>
+		</plugin>
+		<plugin name="cordova-plugin-appsflyer-sdk" spec="https://github.com/AppsFlyerSDK/cordova-plugin-appsflyer-sdk.git#v4.2.16"/>
+		<plugin name="https://github.com/hereiam133/cordova-plugin-googleplus.git" spec="https://github.com/hereiam133/cordova-plugin-googleplus.git"/>
+		<plugin name="androidIDFA" spec="https://bitbucket.org/sbdDigitalAccelerator/cordova-plugin-android-idfa.git#1.0.1"/>
+		<plugin name="ETPush" spec="https://bitbucket.org/sbdDigitalAccelerator/cordovasalesforce.git#1.2.0">
+			<variable name="PROD_APPID" value="ae5b2fba-ecb2-4d54-8df3-5cf68106a29b"/>
+			<variable name="PROD_ACCESSTOKEN" value="34nv3c9329sdav8p93wjzuuy"/>
+			<variable name="PROD_GCMSENDERID" value="160235911270"/>
+			<variable name="DEV_APPID" value="ae5b2fba-ecb2-4d54-8df3-5cf68106a29b"/>
+			<variable name="DEV_ACCESSTOKEN" value="34nv3c9329sdav8p93wjzuuy"/>
+			<variable name="DEV_GCMSENDERID" value="160235911270"/>
+			<variable name="LOCATION_ENABLED" value="false"/>
+			<variable name="PROXIMITY_ENABLED" value="false"/>
+			<variable name="ANALYTICS_ENABLED" value="true"/>
+			<variable name="WAMA_ENABLED" value="false"/>
+			<variable name="CLOUDPAGES_ENABLED" value="false"/>
+		</plugin>
+		<!--Platforms-->
+		<platform name="android">
+			<allow-intent href="market:*"/>
+			<allow-navigation href="*"/>
+			<preference name="enabled" value="true"/>
+			<preference name="Orientation" value="portrait"/>
+			<preference name="DisallowOverscroll" value="true"/>
+			<preference name="KeepRunning" value="false"/>
+			<preference name="InAppBrowserStorageEnabled" value="true"/>
+			<preference name="LoadingDialog" value="DIYZ"/>
+			<preference name="ShowTitle" value="true"/>
+			<preference name="LogLevel" value="ERROR"/>
+			<preference name="AndroidLaunchMode" value="singleTop"/>
+			<preference name="DefaultVolumeStream" value="media"/>
+			<preference name="CocoonSplashDelay" value="5"/>
+			<preference name="CocoonSplashScaleMode" value="scaleAspectFill"/>
+			<preference name="CocoonSplashPadding" value="0%"/>
+			<preference name="android-minSdkVersion" value="21"/>
+			<preference name="android-installLocation" value="auto"/>
+			<preference name="Orientation" value="portrait"/>
+		</platform>
+		<preference name="Orientation" value="portrait"/>
+		<preference name="android-installLocation" value="auto"/>
+		<preference name="android-minSdkVersion" value="21"/>
+	<engine name="android"/>
+<!--<plugin name="com.ludei.usersplash.android" spec="1.0.2"/>-->
+<!--<plugin name="com.ludei.usericon.android" spec="1.0.0"/>-->
+<plugin name="com.ludei.defaultres.android"/>
+
+<preference name="cocoon-version" value="2.1.0"/>
+</widget>

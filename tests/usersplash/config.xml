@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:cocoon="http://cocoon.io/ns/1.0" xmlns:cdv="http://cordova.apache.org/ns/1.0" id="io.cocoon.test.usersplash" version="1.0.8">
+    <name>2.1.0 - Usersplash</name>
+    <description>Usersplash</description>
+    <author email="support@cocoon.io" href="https://cocoon.io">Ludei</author>
+    <content src="index.html"/>
+    <plugin name="cordova-plugin-whitelist"/>
+    <access origin="*"/>
+    <allow-intent href="http://*/*"/>
+    <allow-intent href="https://*/*"/>
+    <allow-intent href="tel:*"/>
+    <allow-intent href="sms:*"/>
+    <allow-intent href="mailto:*"/>
+    <allow-intent href="geo:*"/>
+    <preference name="CocoonSplashBackgroundColor" value="white"/>
+    <plugin name="com.ludei.canvasplus.android"/>
+    <engine name="android"/>
+    <plugin name="com.ludei.usersplash.android"/>
+    <plugin name="com.ludei.canvasplus.ios"/>
+    <engine name="ios"/>
+    <plugin name="com.ludei.usersplash.ios"/>
+    <preference name="cocoon-version" value="2.1.0"/>
+    <platform name="ios">
+        <preference name="enabled" value="true"/>
+    </platform>
+    <platform name="android">
+        <preference name="enabled" value="true"/>
+    </platform>
+</widget>

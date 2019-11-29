@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?><widget xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:cocoon="http://cocoon.io/ns/1.0" android-versionCode="131" id="com.ludei.basketgunner" ios-version="131" version="1.0.1">
+	<name>iBasket Gunner</name>
+	<description>Created using cocoon.io</description>
+	<content src="index.html"/>
+	<preference name="Orientation" value="portrait"/>
+	<preference name="Fullscreen" value="true"/>
+	<allow-navigation href="http://*/*"/>
+	<allow-navigation href="https://*/*"/>
+	<access origin="*"/>
+	<allow-intent href="http://*/*"/>
+	<allow-intent href="https://*/*"/>
+	<allow-intent href="tel:*"/>
+	<allow-intent href="sms:*"/>
+	<allow-intent href="mailto:*"/>
+	<allow-intent href="geo:*"/>
+	<platform name="android">
+		<allow-intent href="market:*"/>
+		<preference name="enabled" value="true"/>
+	</platform>
+	<platform name="ios">
+		<allow-intent href="itms:*"/>
+		<allow-intent href="itms-apps:*"/>
+		<preference name="enabled" value="true"/>
+	</platform>
+	<preference name="CocoonSplashBackgroundColor" value="#000000"/>
+	<preference name="CocoonSplashScaleMode" value="scaleAspectFit"/>
+	<!--plugins ios-->
+	<plugin name="com.ludei.canvasplus.ios" spec="2.5.0-bullet"/>
+	<plugin name="cocoon-plugin-ads-ios-mopub" spec=""/>
+	<plugin name="cocoon-plugin-ads-ios-mopub-admob" spec=""/>
+	<plugin name="cocoon-plugin-ads-ios-mopub-chartboost" spec=""/>
+	<plugin name="cocoon-plugin-ads-ios-applovin" spec="">
+		<variable name="APP_ID" value="pDI4KxG-u1nk2lSlxin86SLElz2yh-EVCWaXRrWKtH2v1UeyCP5ItRWbOTT5XnbkHAFk0m3t25n3aP0oq54gWb"/>
+	</plugin>
+	<plugin name="cocoon-plugin-ads-ios-mopub-applovin" spec="">
+		<variable name="APP_ID" value="pDI4KxG-u1nk2lSlxin86SLElz2yh-EVCWaXRrWKtH2v1UeyCP5ItRWbOTT5XnbkHAFk0m3t25n3aP0oq54gWb"/>
+	</plugin>
+	<plugin name="cocoon-plugin-ads-ios-mopub-unityads" spec=""/>
+	<plugin name="cocoon-plugin-inapps-ios-appstore" spec=""/>
+	<plugin name="cocoon-plugin-social-ios-gamecenter" spec=""/>
+	<plugin name="cocoon-plugin-multiplayer-ios-gamecenter" spec=""/>
+	<plugin name="cocoon-plugin-social-ios-facebook" spec="">
+		<variable name="APP_NAME" value="iBasket Gunner"/>
+		<variable name="APP_ID" value="639069986124122"/>
+	</plugin>
+	<!--plugins android-->
+	<plugin name="com.ludei.canvasplus.android" spec="2.5.0-bullet"/>
+	<plugin name="cocoon-plugin-ads-android-admob" spec=""/>
+	<plugin name="cocoon-plugin-ads-android-admob-chartboost" spec=""/>
+	<plugin name="cocoon-plugin-ads-android-applovin" spec="">
+		<variable name="APP_ID" value="pDI4KxG-u1nk2lSlxin86SLElz2yh-EVCWaXRrWKtH2v1UeyCP5ItRWbOTT5XnbkHAFk0m3t25n3aP0oq54gWb"/>
+	</plugin>
+	<plugin name="cocoon-plugin-ads-android-admob-applovin" spec="">
+		<variable name="APP_ID" value="pDI4KxG-u1nk2lSlxin86SLElz2yh-EVCWaXRrWKtH2v1UeyCP5ItRWbOTT5XnbkHAFk0m3t25n3aP0oq54gWb"/>
+	</plugin>
+	<plugin name="cocoon-plugin-ads-android-admob-unityads" spec=""/>
+	<plugin name="cocoon-plugin-inapps-android-googleplay" spec=""/>
+	<plugin name="cocoon-plugin-social-android-googleplaygames" spec="">
+		<variable name="APP_ID" value="295375754801"/>
+	</plugin>
+	<plugin name="cocoon-plugin-multiplayer-android-googleplaygames" spec="">
+		<variable name="APP_ID" value="295375754801"/>
+	</plugin>
+	<plugin name="cocoon-plugin-social-android-facebook" spec="">
+		<variable name="APP_NAME" value="iBasket Gunner"/>
+		<variable name="APP_ID" value="639069986124122"/>
+	</plugin>
+	<!--needed for facebook:-->
+	<preference name="android-minSdkVersion" value="16"/>
+	<plugin name="cocoon-plugin-application-android" spec=""/>
+	<!--plugins common-->
+	<plugin name="cordova-plugin-whitelist" spec="" version="1"/>
+	<!-- <plugin name="https://github.com/rogersolsona/cordova-plugin-flurryanalytics.git" spec="https://github.com/rogersolsona/cordova-plugin-flurryanalytics.git"/> -->
+	<!--devapp-->
+	
+	
+    <engine name="ios" spec="4.3.0"/>
+<engine name="android" spec="6.1.0"/>
+<plugin name="com.ludei.usersplash.android" spec="1.0.2"/>
+<plugin name="com.ludei.usericon.android" spec="1.0.1"/>
+<plugin name="com.ludei.defaultres.android" spec="1.0.1"/>
+<plugin name="com.ludei.usersplash.ios" spec="1.0.3"/>
+<plugin name="com.ludei.usericon.ios" spec="1.0.1"/>
+<plugin name="com.ludei.defaultres.ios" spec="1.1.1"/>
+<plugin name="com.ludei.devapp.android" spec="1.5.3"/>
+<plugin name="com.ludei.devapp.ios" spec="1.1.3"/>
+</widget>
